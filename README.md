@@ -25,7 +25,7 @@ iii. Write automated tests: Write unit tests, integration tests, and end-to-end 
 
 b. By using the 'npm init' command
 
-6. By runnig the command 'npm run <script-name>'
+6. By running the command 'npm run <script-name>'
 
 
 
