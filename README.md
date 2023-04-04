@@ -2,9 +2,7 @@
 
 1. Event loop is a mechanism that enables asynchronous programming by handling and executing code in response to events. The event loop continuously checks for any events in the event queue, which can include user input, network requests, timers, and other types of events.
 
-2. 
-
-i. Timers: In this phase, the event loop checks for any timer callbacks that have expired. Timer callbacks are added to the timer queue and executed after a specified time delay using functions like setTimeout() and setInterval().
+2 i. Timers: In this phase, the event loop checks for any timer callbacks that have expired. Timer callbacks are added to the timer queue and executed after a specified time delay using functions like setTimeout() and setInterval().
 
 ii. Pending I/O callbacks: This phase executes I/O callbacks that were deferred during the previous loop iteration.
 
@@ -16,8 +14,7 @@ v. Check: In this phase, any callbacks registered with the setImmediate() functi
 
 vi. Close callbacks: This phase executes any close event callbacks registered on the event emitter objects.
 
-3. 
-i. Write secure code: Follow security best practices to prevent attacks such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). This includes input validation, escaping user input, and using encryption and hashing where appropriate.
+3 i. Write secure code: Follow security best practices to prevent attacks such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). This includes input validation, escaping user input, and using encryption and hashing where appropriate.
 
 ii. Write scalable code: Design the application architecture in a way that allows it to scale to handle large amounts of traffic and data. This includes using caching, load balancing, and database sharding.
 
