@@ -20,6 +20,7 @@ ii. Write scalable code: Design the application architecture in a way that allow
 
 iii. Write automated tests: Write unit tests, integration tests, and end-to-end tests to ensure that the code works as expected and catches errors early in the development cycle. This can help to improve code quality and reduce the risk of regressions.
 
+
 4. npm5 is a version of the Node Package Manager (npm) which was released in 2017. It introduced several new features and improvements over previous versions of npm, including better performance, a new lock file format for deterministic package installs, and better support for managing multiple packages at once. npm is used to install, manage, and share packages or modules of code written in JavaScript.
 
 b. By using the 'npm init' command
