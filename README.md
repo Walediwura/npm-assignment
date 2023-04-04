@@ -42,7 +42,7 @@ b. You initialize a package in npm by using the 'npm init' command.
 
 Question 6: How do you run a script in the package.json ?
 
-By running the command 'npm run <script-name>'
+By using the command 'npm run <script-name>'
 
 
 
