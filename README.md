@@ -4,6 +4,7 @@ Question 1: What is the Event loop ?
 
 Event loop is a mechanism that enables asynchronous programming by handling and executing code in response to events. The event loop continuously checks for any events in the event queue, which can include user input, network requests, timers, and other types of events.
 
+
 Question 2: Explain the 6 phases of the event loop ?
 
 i. Timers: In this phase, the event loop checks for any timer callbacks that have expired. Timer callbacks are added to the timer queue and executed after a specified time delay using functions like setTimeout() and setInterval().
@@ -17,6 +18,7 @@ iv. Poll: This is the main phase of the event loop, where the loop waits for eve
 v. Check: In this phase, any callbacks registered with the setImmediate() function are executed.
 
 vi. Close callbacks: This phase executes any close event callbacks registered on the event emitter objects.
+
 
 Question 3: List some best practices in server-side code development?
 
@@ -33,9 +35,10 @@ v. Keep it simple: Keep the code simple and easy to understand. Avoid complex lo
 
 Question 4: What is NPM5: How do you initialize a package in npm?
 
-i NPM 5 is a version of the Node Package Manager (npm) which was released in 2017. It introduced several new features and improvements over previous versions of npm, including better performance, a new lock file format for deterministic package installs, and better support for managing multiple packages at once. npm is used to install, manage, and share packages or modules of code written in JavaScript.
+i. NPM 5 is a version of the Node Package Manager (npm) which was released in 2017. It introduced several new features and improvements over previous versions of npm, including better performance, a new lock file format for deterministic package installs, and better support for managing multiple packages at once. npm is used to install, manage, and share packages or modules of code written in JavaScript.
 
 b. You initialize a package in npm by using the 'npm init' command.
+
 
 Question 6: How do you run a script in the package.json ?
 
